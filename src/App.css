@@ -1,0 +1,28 @@
+.app {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.column {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+.task-card {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
